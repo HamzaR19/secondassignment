@@ -6,6 +6,9 @@ body {
     color: #333;
     background-color: #a4a1e1;
 }
+head{
+    align-items: center;
+}
 
 header {
     display: flex;
@@ -20,6 +23,7 @@ h1 {
 }
 
 nav {
+    align-items: center;
     display: flex;
 }
 
