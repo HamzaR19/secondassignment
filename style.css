@@ -1,71 +1,85 @@
+/* Reset some default styles for the body and header */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #a4a1e1;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(130, 130, 161);
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
-h1 {
+header h1 {
     margin: 0;
 }
 
 nav {
-    display: flex;
+    margin-top: 10px;
 }
 
 nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    padding: 10px 20px;
 }
 
-section {
-    padding: 40px;
+/* Main styles for the content */
+#about, #projects, #contact {
+    padding: 20px;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 20px auto;
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
+.profile img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* ... (previous CSS rules) ... */
+
+/* Project links styles */
 .project-links {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
+    justify-content: space-between;
 }
 
-.project-links a {
-    display: block;
-    padding: 8px 12px;
-    margin: 8px;
-    background-color: #e0e0e0;
+.project {
+    width: 48%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project a {
     text-decoration: none;
-    color: #333;
-    border-radius: 4px;
 }
 
-.project-link {
-    max-width: 200px; /* Adjust the max-width as needed */
-    max-height: 200px; /* Adjust the max-height as needed */
-    margin: 0 auto;
+.project img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px; /* Center the image */
 }
 
-.project-links a:hover {
-    background-color: #ddd;
+.project-info {
+    margin-top: 10px;
 }
 
-h2 {
-    margin-top: 40px;
+/* Mobile-friendly styles */
+@media screen and (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+    }
 }
