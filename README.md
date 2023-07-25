@@ -12,5 +12,5 @@ github.com/hamzar19![Screenshot_20230724_195435_Chrome](https://github.com/Hamza
 
 
 # Contact info
-github.com/hamzar19
-m.hamza.rahman@gmail.com
+* github.com/hamzar19
+* m.hamza.rahman@gmail.com
