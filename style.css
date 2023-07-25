@@ -20,8 +20,15 @@ nav {
     margin-top: 10px;
 }
 
-nav a {
-    color: #fff;
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Bottom navbar buttons */
+.bottom-nav a {
+    color: black;
     text-decoration: none;
     padding: 10px 20px;
 }
